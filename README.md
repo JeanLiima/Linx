@@ -17,7 +17,6 @@ ou
 #ONLINE
 
 You can watch in this link:</br>
-
 Voce pode olhar neste link:
 
 > http://jeanlima.dev.br/linx
