@@ -1,0 +1,486 @@
+/* ##SUMARY
+
+    1- Header
+    2- Main
+    3- Main > Filter
+    4- Main > Tasks
+    5- Main > Show More
+    6- Main > Newsletter
+    7- Main > About
+    8- Footer
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
+@font-face {
+  font-family: "themify";
+  src: url("assets/fonts/themify.woff?-fvbane") format("woff");
+}
+[class^="ti-"],
+[class*=" ti-"] {
+  font-family: "themify";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+
+body {
+  background: #fff;
+  font-family: "Open Sans";
+  margin: 0;
+}
+
+/* Header */
+
+.main-header {
+  width: 100%;
+  height: 381px;
+  left: 0px;
+  top: 0px;
+  margin-bottom: 60px;
+
+  background: #422755;
+  color: #fff;
+}
+
+.main-header::after {
+  content: "";
+  position: absolute;
+  transform: rotate(2deg);
+  width: 100%;
+  height: 51px;
+  left: 0px;
+  top: 357px;
+
+  background-color: white;
+}
+
+.main-header h1 {
+  margin: 0;
+  padding-top: 141px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.main-header p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Main */
+
+.container {
+  display: flex;
+  padding: 0px 175px 0 183px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Main > Filter */
+
+.container .filter {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 25%;
+  width: 100%;
+  height: 85px;
+  padding: 10px;
+  margin: 0px auto 71px;
+  background: #feaf3d;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 360px) {
+  .container .filter {
+    width: 90%;
+  }
+}
+
+.filter .search,
+.filter .list-box,
+.filter .search button {
+  height: 34px;
+}
+
+.filter .search {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.filter .search button {
+  cursor: pointer;
+  background: #6e4b87;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  width: 69px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  position: absolute;
+}
+
+.filter .search button:hover {
+  background: #9174a7;
+}
+
+.filter .search input,
+.filter .list-box select {
+  color: #414141;
+  border: 0;
+  border-radius: 8px;
+}
+
+.filter .search input {
+  padding: 9px 0 9px 15.73px;
+  width: 290px;
+}
+
+.filter .list-box {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.filter .list-box select {
+  width: 193px;
+  padding: 7px 0 8px 29px;
+}
+
+.filter .list-box label {
+  font-size: 14px;
+  font-weight: 600;
+
+  color: #fff;
+}
+
+/* Main > Tasks */
+
+.container .task-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 23px;
+}
+
+.container .task-list .task {
+  width: 253px;
+  height: 360px;
+}
+
+.task .task-information {
+  width: 253px;
+  height: 360px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 14px;
+
+  padding: 15px;
+}
+
+.task:hover .task-information {
+  position: absolute;
+  z-index: 9998;
+  height: 460px;
+}
+
+.task:hover .task-information .actions-button {
+  display: block;
+  position: absolute;
+  z-index: 9998;
+  width: 218px;
+  padding: 20px 0;
+}
+
+.task:hover::before {
+  z-index: 9999;
+}
+
+.task-information .task-title {
+  margin: 5px 0 0 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #414141;
+}
+
+.task-information .task-description {
+  margin: 5px 0 0 0;
+  height: 48px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: normal;
+  color: #000000;
+}
+
+.task-information .task-period {
+  margin: 8px 0 0 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.task-information .task-period .period {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 16px;
+  color: #f04837;
+}
+
+.task-information .task-include-date {
+  margin: 5px 0 0 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+
+  color: #414141;
+}
+
+.task-information .task-period .delay-date {
+  font-style: normal;
+  font-weight: normal;
+  float: right;
+  margin-right: 20px;
+  font-size: 10px;
+  line-height: 14px;
+  color: #f04837;
+}
+
+[badge]:before {
+  color: #fff;
+  padding: 5px 15px;
+  width: 105px;
+  height: 29px;
+  margin-top: 22px;
+  margin-left: -12px;
+  border-radius: 0px 5px 5px 0px;
+  position: absolute;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+[badge="warning"]:before {
+  background: #422755;
+  content: "Prazo Curto!";
+}
+
+[badge="alert"]:before {
+  background: #f04837;
+  content: "Atrasado :(";
+}
+
+[badge=""]:before {
+  display: none;
+}
+
+.task-information .actions-button {
+  display: none;
+}
+
+.task .actions-button > button {
+  cursor: pointer;
+
+  z-index: 9999;
+  width: 100%;
+  height: 40px;
+  border: 0;
+  border-radius: 8px;
+  margin: 5px 0;
+
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.task-information .actions-button .finish-task {
+  background: #422755;
+}
+
+.task-information .actions-button .finish-task:hover {
+  background: #674580;
+}
+
+.task-information .actions-button .change-period-task {
+  background: #f04837;
+}
+
+.task-information .actions-button .change-period-task:hover {
+  background: #e8695c;
+}
+
+.task-information .actions-button i {
+  margin-right: 5px;
+}
+
+.ti-time:before {
+  content: "\e72b";
+}
+
+/* Main > Show-more */
+.container .show-more {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.show-more button {
+  cursor: pointer;
+  width: 197px;
+  height: 38px;
+  border-radius: 8px;
+  border: 0;
+  background: #6e4b87;
+  color: #fff;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.show-more button:hover {
+  background: #9174a7;
+}
+
+.ti-plus:before {
+  content: "\e61a";
+}
+
+/* Main > About */
+.container .about {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 54px;
+  padding: 58px 0;
+}
+
+.about img {
+  width: 234px;
+  height: 137px;
+}
+
+.about .about-description {
+  width: 699px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #414141;
+}
+
+/* Main > Newsletter */
+.container .newsletter {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 58px 0;
+  width: 100%;
+}
+
+.newsletter .newsletter-form {
+  background: #e5e5e5;
+  border-radius: 8px;
+  padding: 22px 45px;
+}
+
+.newsletter .newsletter-form h2 {
+  margin: 0 0 7px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #6e4b87;
+}
+
+.newsletter .newsletter-form .contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 13px;
+  align-items: flex-end;
+}
+
+.newsletter .newsletter-form .contact .contact-item-form {
+  display: flex;
+  flex-direction: column;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #757575;
+}
+
+.newsletter .newsletter-form .contact .contact-item-form label {
+  margin: 0 0 2px 0;
+}
+
+.newsletter .newsletter-form .contact .contact-item-form input {
+  width: 335px;
+  border: 0;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 9px 19px;
+}
+
+.newsletter .newsletter-form .contact button {
+  cursor: pointer;
+  width: 100px;
+  height: 33px;
+  border: 0;
+  background: #6e4b87;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.newsletter .newsletter-form .contact button:hover {
+  background: #9174a7;
+}
+
+/* Footer */
+.main-footer {
+  width: 100%;
+  height: 126px;
+  left: 0px;
+  bottom: 0px;
+
+  background: #422755;
+  color: #fff;
+}
+
+.footer-information {
+  padding: 34px 0;
+}
+
+.main-footer p {
+  text-align: center;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+}
