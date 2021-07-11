@@ -22,4 +22,4 @@ Voce pode olhar neste link:
 > http://jeanlima.dev.br/linx
 
 *Desktop
-![Desktop](screenshots/github/TaskList.gif)
+![Desktop](./screenshots/github/TaskList.gif)
