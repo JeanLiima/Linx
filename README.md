@@ -17,8 +17,9 @@ Use git clone https://github.com/JeanLiima/Linx.git, baixe-o, e abra o arquivo i
 #ONLINE
 
 You can watch in this link:</br>
->Voce pode olhar neste link:
+
+> Voce pode olhar neste link:
 
 http://jeanlima.dev.br/linx
 
-![](TaskList.gif)
+![](screenshots/github/TaskList.gif)
