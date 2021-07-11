@@ -1,0 +1,171 @@
+@font-face {
+  font-family: "themify";
+  src: url("assets/fonts/themify.woff?-fvbane") format("woff");
+}
+
+@media only screen and (max-width: 460px) {
+  /* Header */
+  .main-header {
+    height: 160px;
+    margin-bottom: 110px;
+  }
+
+  .main-header:after {
+    left: -1px;
+    top: 153px;
+  }
+
+  .main-header h1 {
+    padding-top: 64px;
+    font-size: 24px;
+    line-height: 41px;
+  }
+
+  .main-header p {
+    width: 85%;
+    color: #422755;
+    padding-top: 170px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  /* Main */
+  .container {
+    padding: 0px 8px 0 8px;
+  }
+
+  /* Main > Filter */
+  .container .filter {
+    padding: 29px 0;
+    margin: 0px auto 37px;
+  }
+
+  /* Main > Task */
+  .container .task-list {
+    flex-direction: column;
+    justify-content: center;
+    gap: 23px;
+  }
+
+  .container .task-list .task {
+    width: 100%;
+    height: 100%;
+  }
+
+  .task .task-content {
+    position: static;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+  }
+
+  .task img {
+    width: 147px;
+    height: 178px;
+  }
+
+  .task .task-content .task-information {
+    padding: 0 0 0 15px;
+  }
+
+  .task .task-content .task-information:before {
+    position: absolute;
+    right: 22px;
+    font-family: "themify";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    content: "\e72b";
+    color: #f04837;
+  }
+
+  .task .task-content .task-description {
+    height: 62px;
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .task .task-content .task-period {
+    padding-top: 8px;
+  }
+
+  .task-content .task-period .delay-date {
+    display: none;
+  }
+
+  [badge]:before {
+    width: 102px;
+    margin-left: -5px;
+  }
+
+  .task .task-content .actions-button {
+    display: block;
+    position: static;
+    width: 155px;
+    padding: 0;
+  }
+
+  .task-content .actions-button .finish-task {
+    height: 30px;
+    background: #fff;
+    color: #422755;
+    border: 1px solid #422755;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+
+  .task-content .actions-button .finish-task:hover {
+    color: #fff;
+  }
+
+  .task-content .actions-button .change-period-task {
+    display: none;
+  }
+
+  .task:hover .task-content {
+    position: static;
+    z-index: 9998;
+    height: 100%;
+  }
+
+  .task:hover .task-content .actions-button {
+    display: block;
+    position: static;
+    width: 155px;
+    padding: 0;
+  }
+
+  /* Main > Show-more */
+  .container .show-more {
+    padding: 47px;
+  }
+
+  /* Main > Newsletter */
+  .container .newsletter {
+    display: none;
+  }
+
+  /* Main > About */
+  .container .about {
+    padding: 17px 0 24px 0;
+    gap: 40px;
+  }
+
+  .about img {
+    width: 157px;
+    height: 94px;
+  }
+
+  .about .about-description {
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0 25px;
+  }
+
+  .about .about-description p {
+    margin: 0 0 16px 0;
+  }
+}
