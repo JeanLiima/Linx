@@ -22,4 +22,5 @@ Voce pode olhar neste link:
 > http://jeanlima.dev.br/linx
 
 *Desktop
+<img alt="Desktop" title="#Desktop" src="./screenshots/github/TaskList.gif" />
 ![Desktop](./screenshots/github/TaskList.gif)
