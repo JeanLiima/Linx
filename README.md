@@ -5,14 +5,14 @@
 
 # How you can visualize ? / Como você pode visualizar ?
 
->Download the .zip, and extract, and open the archive index.html.</br>
->Download o .zip, e extraí-o, e abra o arquivo index.html.
+> Download the .zip, and extract, and open the archive index.html.</br>
+> Download o .zip, e extraí-o, e abra o arquivo index.html.
 
 or</br>
 ou
 
->Use git clone https://github.com/JeanLiima/Linx.git, downloaded, and open the archive index.html.</br>
->Use git clone https://github.com/JeanLiima/Linx.git, baixe-o, e abra o arquivo index.html.
+> Use git clone https://github.com/JeanLiima/Linx.git, downloaded, and open the archive index.html.</br>
+> Use git clone https://github.com/JeanLiima/Linx.git, baixe-o, e abra o arquivo index.html.
 
 #ONLINE
 
@@ -24,3 +24,7 @@ Voce pode olhar neste link:
 #Desktop
 
 ![Desktop](https://raw.githubusercontent.com/JeanLiima/Linx/master/screenshot/github/TaskList.gif)
+
+#Mobile
+
+![Mobile](https://raw.githubusercontent.com/JeanLiima/Linx/master/screenshot/github/TaskList_Mobile.gif)
