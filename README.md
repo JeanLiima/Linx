@@ -21,4 +21,5 @@ Voce pode olhar neste link:
 
 > http://jeanlima.dev.br/linx
 
-![](screenshots/github/TaskList.gif)
+*Desktop
+![Desktop](screenshots/github/TaskList.gif)
