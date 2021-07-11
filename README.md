@@ -23,4 +23,4 @@ Voce pode olhar neste link:
 
 *Desktop
 <img alt="Desktop" title="#Desktop" src="./screenshots/github/TaskList.gif" />
-![Desktop](./screenshots/github/TaskList.gif)
+![Desktop](https://raw.githubusercontent.com/JeanLiima/Linx/master/screenshot/github/TaskList.gif)
