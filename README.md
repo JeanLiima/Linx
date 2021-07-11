@@ -5,19 +5,19 @@
 
 # How you can visualize ? / Como você pode visualizar ?
 
-<p>Download the .zip, and extract, and open the archive index.html.</p>
-<p>Download o .zip, e extraí-o, e abra o arquivo index.html.</p>
+Download the .zip, and extract, and open the archive index.html.</br>
+Download o .zip, e extraí-o, e abra o arquivo index.html.
 
-<p>or</p>
-<p>ou</p>
+or</br>
+ou
 
-<p>Use git clone https://github.com/JeanLiima/Linx.git, downloaded, and open the archive index.html.</p>
-<p>Use git clone https://github.com/JeanLiima/Linx.git, baixe-o, e abra o arquivo index.html.</p>
+Use git clone https://github.com/JeanLiima/Linx.git, downloaded, and open the archive index.html.</br>
+Use git clone https://github.com/JeanLiima/Linx.git, baixe-o, e abra o arquivo index.html.
 
 #ONLINE
 
-<p>You can watch in this link:</p>
-<p>Voce pode olhar neste link:</p>
+You can watch in this link:</br>
+>Voce pode olhar neste link:
 
 http://jeanlima.dev.br/linx
 
